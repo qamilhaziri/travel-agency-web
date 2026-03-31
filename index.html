@@ -1,0 +1,373 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Travel</title>
+
+    <!--=============== JQUERY ===============-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+    <!--=============== CSS & JS ===============-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+   
+    <!--=============== FONTAWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--=============== Nav Bar ===============-->
+    <div class="header">
+        <img src="Foto/logo.PNG" alt="Logo" width="215px" height="215px" class="logo">
+        <input type="checkbox" id="Check">
+        <label for="Check" class="icons">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-x" id="close-icon"></i>
+        </label>
+        <nav>
+            <ul class="navbar">
+                <li style="--i:1;" class="li"><a href="#">Ballina</a></li>
+                <li style="--i:2;" class="li"><a href="subPages/rrethNesh.html">Rreth Nesh</a></li>
+                <li style="--i:3;" class="li"><a href="/subPages/contactUs.html">Kontakti</a></li>
+                <li style="--i:4;" class="li"><a href="/subPages/rezervimet.html">Rezervimet</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--=============== Home Page ===============-->
+    <header>
+        <div class="content">
+            <div class="bileta">
+                <div class="sectionn">
+                <div class="sectionOne">
+                    <div class="titulli">
+                        <i class="fa-solid fa-hotel icon"></i>
+                        <label for="resort">Resort Style</label>
+                    </div>
+                    <select id="resortList">
+                        <option value="Family resort">Family resort</option>
+                        <option value="Tropical">Tropical</option>
+                        <option value="Luxury Modern">Luxury Modern</option>
+                        <option value=" Adventure Resort"> Adventure Resort</option>
+                        <option value="Ski Resort">Ski Resort</option>
+                        <option value="Cultural Resort">Cultural Resort</option>
+                    </select>
+                </div>
+                <div class="sectionTwo">
+                    <div class="titulli">
+                        <i class="fa-solid fa-location-dot icon"></i>
+                        <label for="vendi">Zgjidh destinacionin</label>
+                    </div>
+                    <input type="text" name="destinacioni" id="destinacioni" placeholder="Ku do të shkosh ?">
+                </div>
+                <div class="sectionThree">
+                    <div class="titulli">
+                        <i class="fa-solid fa-suitcase icon"></i>
+                        <label for="Data">Check in</label>
+                    </div>
+                    <input type="text" name="Data" id="Data" placeholder="Shtoni Datat">
+                </div>
+                <div class="sectionFour" style="position: relative;">
+                    <div class="titulli">
+                        <label for="Data2">Check out</label>
+                    </div>
+                    <input type="text" name="Data" id="DataTwo" placeholder="Shtoni Datat">
+                </div>
+                <div class="sectionFive">
+                   <input type="button" class="button bStyle" value="Search" >
+                </div>
+            </div>
+        </div>
+    
+        <div class="text">
+            <div class="topText">
+                <p>Udhëtimi Juaj Fillon Këtu</p>
+            </div>
+            <div class="longText">
+                <p>Nga plazhet me rërë te majat me dëborë, zbuloni destinacione që përputhen me ëndrrat tuaja. 
+                Udhëtoni me qëllim, rehati dhe kujtime të paharrueshme.</p></div>
+        </div>
+    </div>
+    </header>
+    <!--=============== Main ===============-->
+    <main><article>
+         <!--=============== Destinacionet ===============-->
+        <section class="vendet" id="vendet">
+            <div class="title">
+                <h2 class="dest-h2">Destinacioni ynë më i njohur !</h2>
+            </div>
+            <div class="vendet-content">
+                <div class="col-content">
+                    <img src="Foto/img-1.jpeg" alt="Paris,image" class="img-vendet" >
+                    <h5 class="h5-vendet">Paris</h5>
+                    <p  class="p-vendet">Francë</p>
+                </div>
+                <div class="col-content">
+                    <img src="Foto/img-2.jpeg" alt="Romë,image" class="img-vendet">
+                    <h5 class="h5-vendet">Romë</h5>
+                    <p class="p-vendet">Itali</p>
+                </div>
+                <div class="col-content">
+                    <img src="Foto/img-3.jpeg" alt="Kyoto,image" class="img-vendet">
+                    <h5 class="h5-vendet">Kyoto</h5>
+                    <p class="p-vendet">Japoni</p>
+                </div>
+                <div class="col-content">
+                    <img src="Foto/img-4.webp" alt="Dubai,image" class="img-vendet">
+                    <h5 class="h5-vendet">Dubai</h5>
+                    <p class="p-vendet"> Emiratet e Bashkuara Arabe</p>
+                </div>
+                <div class="col-content">
+                    <img src="Foto/img-5.jpeg" alt="New York,image" class="img-vendet">
+                    <h5 class="h5-vendet">New York</h5>
+                    <p class="p-vendet">SHBA</p>
+                </div>
+                <div class="col-content">
+                    <img src="Foto/img-6.jpeg" alt="Istanbul,image" class="img-vendet">
+                    <h5 class="h5-vendet">Istanbul</h5>
+                    <p class="p-vendet">Turqi</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pakot ===============-->
+        <section class="package" id="package">
+            <div class="container">
+                <p class="section-subtitle">Paketat më të kërkuara</p>
+                <h2 class="h2 section-title">Zbulo paketat tona</h2>
+                <p class="section-text">Planifiko pushimet me njërën nga paketat tona speciale !</p>
+                <ul class="paketa-list">
+                    <li>
+                        <div class="paketa-card">
+                            <figure class="card-banner">
+                                <img src="Foto/img-1-paketa.jpeg" alt="Zbulo magjinë e Stambollit" loading="lazy">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="h3 card-title">
+                                    STAMBOLL – MAGJIA MES LINDJES DHE PERËNDIMIT!
+                                </h3>
+                                <p class="card-text">Shëtit mes historisë dhe modernitetit, vizito xhamitë madhështore, 
+                                    pazaret tradicionale dhe shijo një udhëtim me varkë në Bosfor.</p>
+                           
+                            <ul class="card-meta-list">
+                                <li class="card-meta-items">
+                                    <div class="meta-box">
+                                        <i class="fa-solid fa-clock"></i>
+                                        <p class="text-pako">7d/6N</p>
+                                    </div>
+                                </li>
+                                <li class="card-meta-items">
+                                    <div class="meta-box">
+                                        <i class="fa-solid fa-person-walking-luggage"></i>
+                                        <p class="text-pako">pax: 10</p>
+                                    </div>
+                                </li>
+                                <li class="card-meta-items">
+                                    <div class="meta-box">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <p class="text-pako">Istanbul</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(25reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price-pako"> 159€ <span>/per person</span></p>
+                                <button class="btn-secondary">Rezervo tani</button>
+                            </div>
+                        </div></li>
+                        <li>
+                            <div class="paketa-card">
+                                <figure class="card-banner">
+                                    <img src="Foto/img-2-paketa.jpg" alt=" ZBULO BUKURITË E BANSKO – SKI & RELAX!" loading="lazy">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">
+                                    ZBULO BUKURITË E BANSKO – SKI & RELAX!
+                                    </h3>
+                                    <p class="card-text">Arratisje dimërore në resortin më të njohur të Bullgarisë! Ski, relaks dhe mikpritje tradicionale –
+                                         perfekt për dëborë dhe qetësi!</p>
+                               
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-items">
+                                        <div class="meta-box">
+                                            <i class="fa-solid fa-clock"></i>
+                                            <p class="text-pako">4d/3N</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-items">
+                                        <div class="meta-box">
+                                            <i class="fa-solid fa-person-walking-luggage"></i>
+                                            <p class="text-pako">pax: 10</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-meta-items">
+                                        <div class="meta-box">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <p class="text-pako">Bansko</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                </div>
+                                <div class="card-price">
+                                    <div class="wrapper">
+                                        <p class="reviews">(35reviews)</p>
+                                        <div class="card-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <p class="price-pako"> 289€ <span>/per person</span></p>
+                                    <button class="btn-secondary">Rezervo tani</button>
+                                </div>
+                            </div></li>
+                            <li>
+                                <div class="paketa-card">
+                                    <figure class="card-banner">
+                                        <img src="Foto/img-3-paketa.jpeg" alt="DUBAI – LUKSI DHE MODERNIZMI" loading="lazy">
+                                    </figure>
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">
+                                            DUBAI – LUKSI DHE MODERNIZMI
+                                        </h3>
+                                        <p class="card-text">Njihuni me arkitekturën futuristike, 
+                                            qendrat tregtare gjigante dhe plazhet luksoze në një nga qytetet më të zhvilluara të botës. </p>
+                                   
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-items">
+                                            <div class="meta-box">
+                                                <i class="fa-solid fa-clock"></i>
+                                                <p class="text-pako">6d/5N</p>
+                                            </div>
+                                        </li>
+                                        <li class="card-meta-items">
+                                            <div class="meta-box">
+                                                <i class="fa-solid fa-person-walking-luggage"></i>
+                                                <p class="text-pako">pax: 8</p>
+                                            </div>
+                                        </li>
+                                        <li class="card-meta-items">
+                                            <div class="meta-box">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <p class="text-pako">Dubai</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    <div class="card-price">
+                                        <div class="wrapper">
+                                            <p class="reviews">(49reviews)</p>
+                                            <div class="card-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <p class="price-pako"> 750€ <span>/per person</span></p>
+                                        <button class="btn-secondary">Rezervo tani</button>
+                                    </div>
+                                </div></li>
+                </ul>
+                <button class="btn-primary">Zbulo të gjitha ofertat</button>
+            </div>
+            </div> 
+        </section>
+         <!--=============== About ===============-->
+        <section class="about" id="about">
+            <div class="section_container about_container">
+                <div class="about__image">
+                    <img src="Foto/bird.jpeg" alt="about" class="img">
+                </div>
+                <div class="about__content">
+                    <h2 class="section__header">Është koha për një <span>aventurë të re</span> mos prisni më gjatë</h2>
+                    <p class="section__description">
+                        Zbuloni vende të reja, përjetoni emocione të paharrueshme dhe nisuni drejt destinacioneve që gjithmonë i keni ëndërruar. 
+                        Ne jemi këtu për t'ju ndihmuar të planifikoni udhëtimin tuaj ideal,
+                        qoftë për relaks, eksplorim apo adrenalinë. Filloni tani aventurën tuaj – bota ju pret!</p>
+                        <div class="about__signature">world travel</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section">
+            <div class="newsletter__container container">
+                <h2 class="newsletter-title">Informohu me Ne</h2>
+                <p class="newsletter__description">Regjistrohu për të marrë ofertat më të fundit,
+                     lajme rreth destinacioneve dhe këshilla udhëtimi direkt në emailin tënd!</p>
+
+                     <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Vendos emailin tuaj" class="newsletter__input" id="newsletter__input">
+                        <button class="btn-abonohu" id="btn-abonohu">Abonohu</button>
+                        <div id="thankyou" class="hidden">Faleminderit :)</div>
+                     </form>
+            </div>
+        </section>
+    </article>
+    </main>
+     <!--=============== Footer ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+             <!--=============== Footer content ===============-->
+            <div class="footer__content">
+                <a href="index.html" class="footer__logo">
+                    <i class="fa-solid fa-plane footer__logo-icon"></i> world travel
+                </a>
+                <p class="footer__description">Shijo udhëtimin më të madh <br> të jetës tënde.</p>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com"  class="a-social footer__social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" class="a-social footer__social-link"><i class="fa-brands fa-instagram"></i></a> 
+                    <a href="https://www.youtube.com" class="a-social footer__social-link"><i class="fa-brands fa-youtube"></i></a>   
+                </div>
+            </div>
+            <!--=============== Footer content 2 ===============-->
+            <div class="footer__content">
+               <h3 class="footer__title">Rreth</h3>
+               <ul class="footer__links">
+                <li><a href="subPages/rrethNesh.html" class="footer__link">Rreth Nesh</a></li>
+                <li><a href="#" class="footer__link">Shërbimi ndaj Klientit</a></li>
+                <li><a href="#" class="footer__link">Qendra e Mbështetjes</a></li>
+               </ul>
+            </div>
+
+              <!--=============== Footer content 3 ===============-->
+              <div class="footer__content">
+                <h3 class="footer__title">Shërbimet Tona</h3>
+                <ul class="footer__links">
+                 <li><a href="#" class="footer__link">Dyqani</a></li>
+                 <li><a href="#" class="footer__link">Ofertat</a></li>
+                 <li><a href="#" class="footer__link">Mënyra e Udhëtimit</a></li>
+                </ul>
+             </div>
+
+               <!--=============== Footer content 4 ===============-->
+            <div class="footer__content">
+                <h3 class="footer__title">Kompania Jonë</h3>
+                <ul class="footer__links">
+                 <li><a href="#" class="footer__link">Regjistrimi</a></li>
+                 <li><a href="subPages/contactUs.html" class="footer__link">Kontakti</a></li>
+                 <li><a href="subPages/rrethNesh.html" class="footer__link">Rreth Nesh</a></li>
+                </ul>
+             </div>
+
+        </div>
+        <span class="footer__copy">&#169; World Travel. Të gjitha të drejtat e rezervuara</span>
+       
+
+    </footer>
+    
+</body>
+</html>

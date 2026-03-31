@@ -1,0 +1,638 @@
+
+@media screen and (max-width: 2300px) {
+   
+    .content{
+  
+        left: -210;
+    }
+}
+
+@media screen and (min-width:1900px) {
+    .topText{
+        font-size: 58px;
+    }
+
+    .text{
+        width: 800px;
+    }
+
+    .longtext{
+        font-size: 18px;
+    }
+    .content{
+        left: -200;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    header{
+        top:-150;
+    }
+
+    .content{
+        top:60;
+        left: -150;
+    }
+    .ui-datepicker{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1600px){
+    .content{
+        left: -75;
+    }
+}
+@media (max-width:1400px) {
+    section{
+        padding: 40px 3%;
+        transition: .2s;
+    }
+    :root{
+        --h2-font:2.3rem;
+    }
+    
+}
+
+@media  screen and (max-width:1155px) {
+    .content{
+        margin-left: 150px;
+    }
+}
+
+@media  screen and (max-width:900px) {
+
+    :root{
+        --fontsize-body: 0.938rem;
+    }
+    nav{
+        padding-inline: 10px;
+    }
+    
+    .header nav a{
+        font-size: 13px;
+    }
+    
+    .logo{
+        width:180px;
+        height:180px;
+    }
+    .content{
+        left: -50;
+        top: 85;
+        width: 800px;
+        margin-left: 100px;
+    }
+
+    .bileta{
+        width: 650px;
+        height: 75px;
+    }
+    
+    .sectionn{
+        padding: 15px;
+    }
+
+    label{
+        font-size: 11px;
+    }
+
+    .sectionOne{
+        width: 120px;
+    }
+
+    #resortList{
+        width: 80px;
+        font-size: 8px;
+    }
+
+    .sectionOne, .sectionTwo{
+        margin-right: 7px;
+    }
+
+    .sectionTwo{
+        width: 145px;
+    }
+
+    .icon{
+        font-size: 12px;
+    }
+
+    #destinacioni{
+        width: 80px;
+        border: none;
+        outline: none;
+    }
+
+    #destinacioni:focus{
+        height: 20px;
+        width: 85px;
+        border-radius: 3px;
+        padding-left: 4px;
+    }
+
+    #destinacioni::placeholder{
+        font-size: 9px;
+    }
+
+    .sectionThree{
+        width: 80px;
+        margin-right: 13px;
+    }
+
+    .sectionFour{
+        width: 100px;
+    }
+
+    #Data, #DataTwo{
+        width: 60px;
+        border: none;
+        outline: none;
+    }
+
+    #Data{
+        margin-left: 27px;
+    }
+
+    #Data:focus , #DataTwo:focus{
+        border-radius: 2px;
+        padding:3px;
+    }
+
+    #Data::placeholder , #DataTwo::placeholder{
+       font-size: 8px;
+    }
+   
+    .topText{
+        font-size: 47px;
+    }
+
+    .longtext{
+        font-size: 13px;
+    }
+
+    .container{
+        margin-inline: 1.5rem;
+    }
+
+    .newsletter-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:780px){
+    .icons{
+        display: inline-flex;
+    }
+
+    .content{
+        width: 520px;
+        left: -130;
+        top: 130;
+        margin-left: 150px;
+        
+    }
+
+    #Check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #Check:checked~.icons #close-icon{
+        display: block;
+    }
+
+    #Check{
+        position: absolute;
+        right: 50;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: #64a0bd ;
+        opacity: 0.98;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        overflow: hidden;
+        transition: .4s ease-in-out;
+    }
+
+    #Check:checked~nav .navbar{
+        height: 15.7rem;
+    }
+    
+    ul.navbar {
+        display: block;
+    }
+
+    ul.navbar li{
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .4s ease-in-out;
+    }
+
+    #Check:checked~nav ul.navbar li {
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay:calc(.11s * var(--i));
+    }
+
+    .bileta{
+        width: 457px;
+        height: 60px;
+    }
+
+    .sectionn{
+        padding: 10px;
+    }
+    
+    label{
+        font-size: 8px;
+    }
+
+    .sectionOne{
+        width: 85px;
+    }
+
+    #resortList{
+        width: 50px;
+        font-size: 5px;
+    }
+
+    .sectionOne, .sectionTwo{
+        margin-right: 4px;
+    }
+
+    .sectionTwo{
+        width: 115px;
+    }
+    
+    .icon{
+        font-size: 9px;
+    }
+
+    #destinacioni{
+        width: 60px;
+        border: none;
+        outline: none;
+        font-size: 6px;
+    }
+
+    #destinacioni:focus{
+        height: 16px;
+        width: 65px;
+        border-radius: 3px;
+        padding-left: 3px;
+    }
+
+    #destinacioni::placeholder{
+        font-size: 6px;
+    }
+
+    .sectionThree{
+        width: 65px;
+        margin-right: 9px;
+    }
+
+    .sectionFour{
+        width: 75px;
+    }
+
+    #Data, #DataTwo{
+        width: 40px;
+        border: none;
+        outline: none;
+        font-size: 5px;
+    }
+
+    #Data{
+        margin-left: 24px;
+    }
+
+    #Data::placeholder , #DataTwo::placeholder{
+        font-size: 5px;
+    }
+
+    #Data:focus , #DataTwo:focus{
+        padding:2px;
+    }
+
+    .button{
+        width: 75px;
+        height: 27px;
+        border-radius: 6px;
+        font-size:12px;
+        padding: 5px;
+    }
+
+    .bStyle{
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+
+    .topText{
+        font-size: 37px;
+        padding: 10px 0 7px 4px;
+    }
+
+    .longtext{
+        font-size: 11px;
+        width: 450px;
+        padding: 12px 12px 12px 10px;
+    }
+
+    .text{
+        width: 510px;
+        padding: 10px 0;
+    }
+
+    .footer__container{
+        grid-template-columns: 1fr;
+        row-gap:2rem ;
+        justify-items:start ;
+    }
+
+    .footer__copy{
+        margin-top: 4.5rem;
+    }
+    
+}
+
+@media (width > 768px){
+    .about_container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .about__content :is(.section__header,.section__description,.about__signature){
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .logo{
+        width:140px;
+        height:140px;
+    }
+   
+    .bileta{
+        width: 250px;
+        height: 155px;
+    }
+
+    .sectionn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        row-gap: 10px;
+        padding: 1rem;
+    }
+
+    .sectionOne{
+        grid-row: 1;
+        grid-column: 1;
+        padding-right: 15px;
+        width: 100px;
+    }
+
+    .sectionTwo{
+        grid-row: 1;
+        grid-column: 2;
+        border: none;
+    }
+    .sectionThree{
+        grid-row: 2;
+        grid-column: 1;     
+           
+    }
+    .sectionFour{
+        grid-row: 2;
+        grid-column: 2;
+        border: none;
+        padding-left:22px;
+        border-left: 2px dotted #E0E0E0;
+        margin-left: -6px;
+    }
+    .sectionFive{
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        align-items: center;
+    }
+    .button{
+        margin-left: 64px;
+    }
+
+    #Data{
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .text{
+        width: 400px;
+    }
+
+    .topText{
+        font-size: 28px;
+    }
+
+    .longtext{
+        font-size: 8px;
+        width: 350px;
+    }
+    :root{
+        --h2-font:1.8rem;
+    }
+
+    .btn-abonohu{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:580px) {
+    .container{
+        max-width: 580px;
+        margin-inline: auto;
+    }
+
+    .package :is(.section-subtitle,.section-title,.section-text){
+        text-align: center;
+    }
+
+    .section-text{
+        margin-bottom: 40px;
+    }
+
+    .card-text{font-size: 15px;}
+    
+}
+
+@media (min-width:768px) {
+    .container{
+        max-width: 800px;
+    }
+
+    .section-text{
+        max-width: 60ch;
+        margin-inline: auto;
+    }
+
+    .paketa-list{margin-bottom: 50px;}
+
+    .paketa-list > li:not(:last-child){margin-bottom: 40px;}
+
+    .paketa-card{
+        display: grid;
+        grid-template-columns: 1.3fr 1.5fr 1.3fr;
+    }
+
+    .paketa-card .card-banner img { 
+       height: min-content;
+       object-fit:fill;
+       
+    }
+   
+
+    .paketa-card .card-content{ padding: 40px;}
+
+    .paketa-card .card-price{
+        display: grid;
+        place-content: center;
+    }
+
+    .paketa-card .card-price .wrapper{ margin-bottom: 15px;}
+
+    .paketa-card .card-price .reviews{font-size: 15px;}
+
+
+    
+    
+}
+
+@media (min-width:992px){
+    .container{ max-width:1050px ; }
+
+    .meta-box{ font-size: 13px;}
+
+    .meta-box i {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1200px){
+    .package {
+        padding-block: 100px;
+    }
+
+    .container{max-width: 1180px;}
+}
+
+@media screen and (max-width:420px) {
+    .content{
+      top: 78;
+      margin-left:170px ;
+    }
+
+    .text{
+        width: 310px;
+        padding: 8px 0;
+    }
+
+    .topText{
+        font-size: 23px;
+        padding: 8px 0 0px 4px;
+    }
+
+    .longtext{
+        width: 300px;
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .content{
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width:335px) {
+
+    .content{
+        margin-right: 7px;
+        top: 135;
+    }
+    .topText{
+        font-size: 20px;
+    }
+
+    .longtext{
+        width: 230px;
+    }
+    .text{
+        width: 250px;
+        margin-top: 15px;
+    }
+    label{
+        font-size: 6px;
+    }
+
+    .bileta{
+        width: 200px;
+        height: 120px;
+    }
+    
+    .sectionn{
+        grid-template-columns: 0.5fr 0.5fr;
+        row-gap: 7px;
+        padding: 0.8rem;
+    }
+
+    .sectionOne{
+        margin-right: 6px;
+        width: 88px;
+    }
+
+    .sectionTwo{
+        grid-row: 1;
+        grid-column: 2;
+        border: none;
+        width: 90px;
+    }
+    .sectionFour{
+        margin-left: -9px;
+        padding-left: 26px;
+    }
+
+    #resortList{
+        margin-left: 23px;
+    }
+    
+    #destinacioni{
+        margin-left: 23px;
+    }
+   
+    .button{
+        width: 60px;
+        height: 22px;
+        border-radius: 5px;
+        font-size:11px;
+        padding: 4px;
+        margin-left: 58px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .content{
+        margin-left: 220px;
+    }
+    
+}
